@@ -43,9 +43,9 @@ public class Controller {
 			case 2 : //로그인
 				userService.login();
 				break;
-//			case 3 : //회원목록
-//				userService.userList();
-//				break;
+			case 3 : //회원목록
+				userService.userList();
+				break;
 			case 0 : //프로그램 종료
 				System.out.println("프로그램 종료");
 				break;
